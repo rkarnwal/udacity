@@ -1,0 +1,1 @@
+{"peft_type": "LORA", "task_type": "SEQ_CLS", "inference_mode": false, "r": 8, "lora_alpha": 32, "lora_dropout": 0.1, "target_modules": ["q_lin", "v_lin"]}

@@ -14,7 +14,10 @@
   "lora_dropout": 0.1,
   "megatron_config": null,
   "megatron_core": "megatron.core",
-  "modules_to_save": null,
+  "modules_to_save": [
+    "classifier",
+    "score"
+  ],
   "peft_type": "LORA",
   "r": 8,
   "rank_pattern": {},
@@ -23,7 +26,7 @@
     "v_lin",
     "q_lin"
   ],
-  "task_type": "SEQUENCE_CLASSIFICATION",
+  "task_type": "SEQ_CLS",
   "use_dora": false,
   "use_rslora": false
 }
